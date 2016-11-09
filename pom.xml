@@ -12,7 +12,7 @@
 
     <groupId>de.fhbingen.iis.geopackage</groupId>
     <artifactId>geopackage</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <build>
         <plugins>
@@ -27,5 +27,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>iis-release</id>
+            <url>https://maven.iis.fh-bingen.de:8080/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
 
 </project>
